@@ -1,0 +1,27 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta http-equiv="Content-Security-Policy" content="default-src * data: gap: https://ssl.gstatic.com; style-src * 'unsafe-inline'; script-src * 'unsafe-inline' 'unsafe-eval'">
+    <link rel="stylesheet" href="components/loader.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <script src="components/loader.js"></script>
+    <script src="../js/script.js"></script>
+    <script>
+              function callon(name){
+                 var value=name.value;
+                 console.log(value);
+       }
+    </script>
+</head>
+<body>
+   <div id="questionfive"  class="shitumon">
+    <p>5.家族に小さな子供がいる</p>
+    <button type="button" name="question" value="yes" onclick="callon('question');">はい</button>
+    <button type="button" name="question" value="no" onclick="callon('question');">いいえ</button><br>
+     <a href="../questionfour/index.html"><button type="button">前に戻る</button></a>
+    <a href="../questionsix/index.html"><button type="button">次へ</button></a>
+   </div>
+</body>
+</html>

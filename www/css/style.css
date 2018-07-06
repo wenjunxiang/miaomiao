@@ -1,0 +1,36 @@
+/**/
+html, body { height: 100%; }
+body{
+width: 100%;
+font-family: "UD Digi Kyokasho N-B";
+}
+p{
+  text-align: center;
+}
+#homeimg{
+  width: 80%;
+}
+.shitumon{
+text-align: center;
+}
+.shitumon p{
+font-size:26px;
+}
+ul{
+  list-style: none;
+}
+input{
+text-align: center;
+}
+h1{
+  text-align:center;
+}
+.left{
+ margin-left: 0;
+}
+.right{
+  margin-right: 0;
+}
+#question{
+ height: 100vh;
+}

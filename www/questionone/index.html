@@ -1,0 +1,71 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta http-equiv="Content-Security-Policy" content="default-src * data: gap: https://ssl.gstatic.com; style-src * 'unsafe-inline'; script-src * 'unsafe-inline' 'unsafe-eval'">
+    <link rel="stylesheet" href="../components/loader.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <script src="../components/loader.js"></script>
+    <script src="../js/script.js"></script>
+</head>
+<body>
+     <div id="question" class="shitumon">
+       <p id="one">1.おとなしい子が好き</p>
+       <p><img id="homeimg" src="../img/siro@0.5x.png"></p>
+     <p><button type="button" id="questionone" value="yes" onclick="oncall(this);">はい</button></p>
+    <p><button type="button" id="questionone" value="no" onclick="oncall(this);">いいえ</button></p>
+        <img class="left" src="../img/nomae@0.5x.png">
+        <a href="#two"><img class="right" src="../img/tugi@0.5x.png"></a>
+  </div>
+  <div id="question"  class="shitumon">
+    <p id="two">2.甘えんぼうの子が好き</p>
+       <p><img id="homeimg" src="../img/siro@0.5x.png"></p>
+    <p><button type="button" id="questiontwo" value="yes" onclick="oncall(this);">はい</button></p>
+    <p><button type="button" id="questiontwo" value="no" onclick="oncall(this);">いいえ</button></p>
+       <a href="#one"><img  class="left" src="../img/mae@0.5x.png"></a>
+     <a href="#three"><img class="right" src="../img/tugi@0.5x.png"></a>
+  </div>
+   <div id="question"  class="shitumon">
+    <p id="three">3.人懐っこい子が好き</p>
+       <p><img id="homeimg" src="../img/siro@0.5x.png"></p>
+    <p><button type="button" id="questionthree" value="yes" onclick="oncall(this);">はい</button></p>
+    <p><button type="button" id="questionthree" value="no" onclick="oncall(this);">いいえ</button></p>
+    <a href="#two"><img  class="left" src="../img/mae@0.5x.png"></a>
+      <a href="#four"><img class="right" src="../img/tugi@0.5x.png"></a>
+  </div>
+   <div id="question"  class="shitumon">
+    <p id="four">4.一緒に遊びたい</p>
+       <p><img id="homeimg" src="../img/siro@0.5x.png"></p>
+   <p><button type="button" id="questionfour" value="yes" onclick="oncall(this);">はい</button></p>
+    <p><button type="button" id="questionfour" value="no" onclick="oncall(this);">いいえ</button></p>
+     <a href="#three"><img  class="left" src="../img/mae@0.5x.png"></a>
+      <a href="#five"><img class="right" src="../img/tugi@0.5x.png"></a>
+  </div>
+   <div id="question"  class="shitumon">
+    <p id="five">5.家族に小さな子供がいる</p>
+       <p><img id="homeimg" src="../img/siro@0.5x.png"></p>
+    <p><button type="button" id="questionfive" value="yes" onclick="oncall(this);">はい</button></p>
+    <p><button type="button" id="questionfive" value="no" onclick="oncall(this);">いいえ</button></p>
+     <a href="#four"><img  class="left" src="../img/mae@0.5x.png"></a>
+    <a href="#six"><img class="right" src="../img/tugi@0.5x.png"></a>
+   </div>
+    <div id="question"  class="shitumon">
+    <p id="six">6.二匹以上と暮らしたい</p>
+       <p><img id="homeimg" src="../img/siro@0.5x.png"></p>
+    <p><button type="button" id="questionsix" value="yes" onclick="oncall(this);">はい</button></p>
+    <p><button type="button" id="questionsix" value="no" onclick="oncall(this);">いいえ</button></p>
+     <a href="#five"><img  class="left" src="../img/mae@0.5x.png"></a>
+      <a href="#seven"><img class="right" src="../img/tugi@0.5x.png"></a>
+   </div>
+    <div id="question"  class="shitumon">
+    <p id="seven">7.初めて飼う</p>
+       <p><img id="homeimg" src="../img/siro@0.5x.png"></p>
+    <p><button type="button" id="questionseven" value="yes" onclick="oncall(this);">はい</button></p>
+    <p><button type="button" id="questionseven" value="no" onclick="oncall(this);">いいえ</button></p>
+  <a href="#six"><img  class="left" src="../img/mae@0.5x.png"></a>
+      <img class="right" src="../img/notugi@0.5x.png">
+      <p><input type="button" name="SendBtn" onclick="dojob();" value="結果を見る"></p>
+   </div>
+</body>
+</html>
